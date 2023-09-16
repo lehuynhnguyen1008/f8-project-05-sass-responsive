@@ -32,6 +32,7 @@
         height: 314px;
         background: #fff;
         border-radius: 10px;
+        border: 1px solid #ccc;
         &:hover {
             filter: drop-shadow(0px 22px 54px rgba(0, 0, 0, 0.07));
             cursor: pointer;
@@ -42,6 +43,8 @@
             display: inline-block;
             width: 90px;
             height: 90px;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc; ;
             background: #fff;
             rotate: 45deg;
             bottom: -87px;
