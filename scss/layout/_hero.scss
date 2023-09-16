@@ -1,0 +1,200 @@
+// Hero
+@use "../abstracts/" as abs;
+.hero {
+    margin-top: 145px;
+    // hero left
+    &__left {
+        margin-top: 57px;
+    }
+    &__digital {
+        color: #696d77;
+        font-family: Open Sans;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.8rem; /* 175% */
+        margin-left: 7px;
+        &::before {
+            position: relative;
+            content: "";
+            display: inline-block;
+            width: 18px;
+            height: 2px;
+            background: #696d77;
+            left: -5px;
+            bottom: 4px;
+        }
+    }
+    &__title {
+        margin-top: 12px;
+        width: 500px;
+        color: #212832;
+        font-family: Open Sans;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 7rem; /* 116.667% */
+    }
+    span {
+        color: #7264d6;
+        font-family: Open Sans;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 7rem;
+    }
+    &__desc {
+        margin-top: 20px;
+        width: 540px;
+        color: #696d76;
+        font-family: Open Sans;
+        font-size: 1.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3rem; /* 166.667% */
+    }
+    &__input {
+        margin-top: 40px;
+        padding: 23px;
+        width: 540px;
+        height: 74px;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.07);
+        border: none;
+        outline: none;
+        &::placeholder {
+            color: #696d76;
+            font-family: Open Sans;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.8rem; /* 175% */
+        }
+    }
+    &__form {
+        position: relative;
+    }
+    .btn-start {
+        position: absolute;
+        top: 48px;
+        right: 100px;
+        background: #7264d6;
+        color: #fff;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.8rem; /* 175% */
+    }
+    &__mess {
+        margin-top: 20px;
+        color: #696d76;
+        font-family: Open Sans;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2.4rem; /* 171.429% */
+    }
+    // hero right
+    &__right {
+        margin-left: 60px;
+        position: relative;
+    }
+    // &__screen {
+    //     position: relative;
+    // }
+    &__deposite {
+        position: absolute;
+        top: 113px;
+        left: -102px;
+        display: flex;
+        align-items: center;
+        padding: 14px 10px;
+        width: 174px;
+        height: 46px;
+        border-radius: 6px;
+        background: #fff;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+    }
+
+    &__depos {
+        margin: 0 9px 0 8px;
+        color: #31456a;
+        font-family: Open Sans;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.4rem; /* 100% */
+    }
+    &__number {
+        color: #4ab5e3;
+        font-family: Open Sans;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.4rem; /* 100% */
+    }
+    &__secured {
+        position: absolute;
+        bottom: 61px;
+        right: 90px;
+        display: flex;
+        align-items: center;
+        padding: 22px 15px;
+        width: 124px;
+        height: 68px;
+        border-radius: 10px;
+        background: #439f90;
+    }
+    &__point {
+        margin-left: 11px;
+        &-number2 {
+            color: #fff;
+            font-family: Open Sans;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.4rem; /* 100% */
+        }
+        &-funds {
+            white-space: nowrap;
+            color: #fff;
+            font-family: Open Sans;
+            font-size: 0.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 0.8rem; /* 100% */
+        }
+    }
+    &__interest {
+        position: absolute;
+        top: 127px;
+        right: -10px;
+        @include abs.flexCenter;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: #da6464;
+        &-percent {
+            color: #fff;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 4.4rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        &-inter {
+            margin-top: -9px;
+            color: #fff;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+.work {
+    margin-top: 160px;
+    &__left {
+        position: relative;
+        &-card {
+            position: absolute;
+            top: 76px;
+            right: 211px;
+        }
+        &-register {
+            position: absolute;
+            bottom: 96px;
+            right: 59px;
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            width: 226px;
+            height: 70px;
+            border-radius: 8px;
+            background: #fffdfa;
+            box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.07);
+        }
+        &-success {
+            margin-left: 10px;
+        }
+        &-congratulations {
+            color: #212832;
+            font-family: Inter;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        &-active {
+            color: #696d76;
+            font-family: Inter;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    &__right {
+        margin: 20px 0 0 53px;
+        &-content-root {
+            margin-top: 70px;
+        }
+        &-content {
+            margin: 30px 0;
+        }
+        &-title {
+            margin-top: 12px;
+            width: 294px;
+            color: #212832;
+            font-family: Open Sans;
+            font-size: 4rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 5rem; /* 125% */
+        }
+        &-title1 {
+            width: 470px;
+            color: #212832;
+            font-family: Open Sans;
+            font-size: 2.2rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 3.2rem; /* 145.455% */
+        }
+        &-desc {
+            margin-top: 16px;
+            width: 470px;
+            color: #696d76;
+            font-family: Open Sans;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.8rem; /* 175% */
+        }
+    }
+}

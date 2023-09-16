@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+button,
+select,
+textarea,
+input {
+    font-family: inherit;
+}
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.btn {
+    width: 149px;
+    height: 58px;
+    border-radius: 8px;
+    background: #212832;
+    color: #fff;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8rem; /* 175% */
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
