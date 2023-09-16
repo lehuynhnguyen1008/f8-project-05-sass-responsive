@@ -4,7 +4,7 @@
     &__body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 100px 370px 0;
+        padding: 100px 270px 0;
         // gap: 134px;
     }
     &__email {
@@ -25,8 +25,7 @@
     & ul {
         margin-top: 24px;
     }
-    & li {
-        padding-bottom: 24px;
+    & li a {
         color: #6a6e78;
         font-family: Open Sans;
         font-size: 1.8rem;
@@ -34,6 +33,10 @@
         font-weight: 400;
         line-height: 3rem; /* 166.667% */
         opacity: 0.75;
+        cursor: pointer;
+    }
+    & li {
+        padding-bottom: 24px;
     }
     &__number {
         margin-top: 12px;

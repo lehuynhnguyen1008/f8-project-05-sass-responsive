@@ -951,7 +951,7 @@ button {
 .footer__body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 100px 370px 0;
+  padding: 100px 270px 0;
 }
 .footer__email {
   margin-top: 298px;
@@ -971,8 +971,7 @@ button {
 .footer ul {
   margin-top: 24px;
 }
-.footer li {
-  padding-bottom: 24px;
+.footer li a {
   color: #6a6e78;
   font-family: Open Sans;
   font-size: 1.8rem;
@@ -980,6 +979,10 @@ button {
   font-weight: 400;
   line-height: 3rem; /* 166.667% */
   opacity: 0.75;
+  cursor: pointer;
+}
+.footer li {
+  padding-bottom: 24px;
 }
 .footer__number {
   margin-top: 12px;
