@@ -90,9 +90,14 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
             rel="stylesheet"
         />
+        <!-- Link Animation AOS-->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
         <title>Mobile Banking</title>
     </head>
-    <body style="height: 7000px">
+    <body>
         <header class="header">
             <div class="header-fixed">
                 <div class="container">
@@ -139,15 +144,15 @@
         <main>
             <!-- Hero -->
             <section>
-                <div class="hero" id="home">
+                <div class="hero" id="home" data-aos="fade-up">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 col-md-12 col-12">
-                                <div class="hero__left">
+                                <div class="hero__left" data-aos="fade-right">
                                     <p class="hero__digital">
                                         Digital Smart Wallet
                                     </p>
-                                    <h1 class="hero__title">
+                                    <h1 class="hero__title animate__fadeInDown">
                                         Digital <span>Payment</span> For
                                         Everyone.
                                     </h1>
@@ -180,7 +185,7 @@
                                 </p>
                             </div>
                             <div class="col-lg-5 offset-lg-1 col-md-12 col-12">
-                                <div class="hero__right">
+                                <div class="hero__right" data-aos="fade-left">
                                     <img
                                         src="./assets/img/Mobile Screen.png"
                                         alt=""
@@ -227,11 +232,11 @@
 
             <!-- Work -->
             <section>
-                <div class="work">
+                <div class="work" data-aos="fade-up">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 col-md-12 col-12">
-                                <div class="work__left">
+                                <div class="work__left" data-aos="fade-right">
                                     <div class="work__left-user">
                                         <img
                                             src="./assets/img/user.png"
@@ -262,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-5 offset-lg-1 col-md-12 col-12">
-                                <div class="work__right">
+                                <div class="work__right" data-aos="fade-left">
                                     <div class="hero__digital">
                                         Digital Smart Wallet
                                     </div>
@@ -318,7 +323,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5 col-md-12 col-12">
-                                <div class="payments__left">
+                                <div class="payments__left" data-aos="fade-up-right">
                                     <div class="hero__digital">
                                         Digital Smart Wallet
                                     </div>
@@ -349,7 +354,10 @@
                             </div>
                             <div class="col-lg-5 offset-lg-2 col-md-12 col-12">
                                 <div class="payments__right">
-                                    <div class="payments__right-media">
+                                    <div
+                                        class="payments__right-media"
+                                        data-aos="fade-up-right"
+                                    >
                                         <img
                                             src="./assets/img/Card.png"
                                             alt=""
@@ -412,6 +420,7 @@
                                 <div class="col-lg-3 offset-lg-4">
                                     <div
                                         class="payments__left"
+                                        data-aos="fade-up-right"
                                         style="margin-top: 130px"
                                     >
                                         <div class="hero__digital">
@@ -445,7 +454,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-5">
-                                    <div class="payments__right">
+                                    <div class="payments__right" data-aos="fade-up-right">
                                         <div class="payments__right-media">
                                             <img
                                                 src="./assets/img/Content.png"
@@ -462,7 +471,7 @@
 
             <!-- Features -->
             <section>
-                <div class="features" id="features">
+                <div class="features" id="features" data-aos="fade-up">
                     <div class="container">
                         <div class="features__main">
                             <div class="features__top">
@@ -478,7 +487,7 @@
                                     you
                                 </p>
                             </div>
-                            <div class="row ">
+                            <div class="row">
                                 <div class="col-lg-6">
                                     <div class="features__comment">
                                         <div class="features__user1">
@@ -546,7 +555,7 @@
 
             <!-- Blog -->
             <section>
-                <div class="blog" id="blog">
+                <div class="blog" id="blog" data-aos="fade-up">
                     <div class="container">
                         <div class="blog__top">
                             <div>
@@ -680,7 +689,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="blog__bottom">
+                        <div class="blog__bottom"  data-aos="zoom-in">
                             <p
                                 class="hero__digital hero__digital-2 blog__bottom-our"
                             >
@@ -744,7 +753,7 @@
 
             <!-- Footer -->
             <section class="footer">
-                <div class="footer__body">
+                <div class="footer__body" data-aos="fade-up">
                     <div class="footer__item1">
                         <a href="#home"
                             ><img src="./assets/img/Logo.png" alt=""
@@ -819,5 +828,9 @@
                 </div>
             </section>
         </main>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

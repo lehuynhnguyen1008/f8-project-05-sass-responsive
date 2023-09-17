@@ -264,7 +264,7 @@ button {
 }
 
 .hero {
-  margin-top: 145px;
+  margin-top: 258px;
 }
 .hero__left {
   margin-top: 57px;
@@ -459,7 +459,7 @@ button {
 }
 
 .work {
-  margin-top: 160px;
+  margin-top: 336px;
 }
 .work__left {
   position: relative;
@@ -840,6 +840,7 @@ button {
   line-height: 3rem; /* 166.667% */
 }
 .blog__read {
+  color: #696D76;
   display: inline-flex;
   margin-top: 20px;
   font-family: Open Sans;
